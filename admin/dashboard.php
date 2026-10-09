@@ -8,7 +8,10 @@ $totalMenunggu = $pdo->query("SELECT COUNT(*) FROM pasien WHERE status = 'menung
 $totalDarurat  = $pdo->query("SELECT COUNT(*) FROM pasien WHERE status = 'menunggu' AND kategori = 'darurat'")->fetchColumn();
 $totalSelesai  = $pdo->query("SELECT COUNT(*) FROM pasien WHERE status = 'selesai' AND DATE(created_at) = CURDATE()")->fetchColumn();
 ?>
-
+<div style="background:#fff; padding:24px; border-radius:10px; margin-bottom:20px; box-shadow:0 1px 4px rgba(0,0,0,.08);">
+    <h2 style="margin:0 0 6px;"><i class="fa-solid fa-circle-user"></i> Selamat datang, Admin!</h2>
+    <p style="margin:0; color:#666;">Kelola data pasien dari halaman Pendaftaran.</p>
+</div>
 <div class="card-grid">
     <div class="summary-card">
         <i class="fa-solid fa-calendar-day"></i>

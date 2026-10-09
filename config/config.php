@@ -11,4 +11,4 @@
 //
 // JANGAN kasih tanda "/" di akhir URL-nya.
 // =========================================================
-define('BASE_URL', 'http://localhost/sistem-antrian-pasien');
+define('BASE_URL', 'http://localhost/sistem-antrian-pasien2');

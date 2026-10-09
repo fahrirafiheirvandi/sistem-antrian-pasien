@@ -16,7 +16,7 @@ unset($_SESSION['login_error']);
     <meta charset="UTF-8">
     <title>Login Admin - Sistem Antrian Pasien</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/vendor/fontawesome/css/all.min.css">
 </head>
 <body class="center-page">
 

@@ -34,9 +34,6 @@ $stmt->execute([$no_tiket, $nama, $usia, $no_hp, $keluhan, $kategori]);
 // simpan pesan sukses buat ditampilin di halaman pendaftaran
 $_SESSION['sukses'] = "Pasien berhasil didaftarkan dengan nomor tiket $no_tiket";
 
-// simpan data pasien yang baru didaftarkan, dipakai buat auto-munculin QR code-nya
-$_SESSION['new_tiket'] = $no_tiket;
-$_SESSION['new_nama']  = $nama;
 
 header('Location: ../pendaftaran.php');
 exit;

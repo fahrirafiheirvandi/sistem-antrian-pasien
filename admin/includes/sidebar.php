@@ -14,8 +14,5 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         <a href="pendaftaran.php" class="<?= $currentPage === 'pendaftaran.php' ? 'active' : '' ?>">
             <i class="fa-solid fa-clipboard-list"></i> Pendaftaran & Antrian
         </a>
-        <a href="laporan.php" class="<?= $currentPage === 'laporan.php' ? 'active' : '' ?>">
-            <i class="fa-solid fa-file-lines"></i> Laporan
-        </a>
     </nav>
 </div>
