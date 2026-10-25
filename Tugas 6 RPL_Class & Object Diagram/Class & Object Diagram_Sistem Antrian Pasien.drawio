@@ -1,0 +1,383 @@
+<mxfile host="Electron" pages="2">
+  <diagram name="Class Diagram" id="XbQiPCaJsbQx08Vpp_jx">
+    <mxGraphModel dx="2943" dy="1811" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="108" width="199" x="43" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="43" y="190" as="sourcePoint" />
+            <mxPoint x="242" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;AuthControler&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="93" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ login()&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="49" y="195.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ logout&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="49" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ gantiPassword()&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="139" x="49" y="233" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="134" width="199" x="308" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-15" edge="1" parent="1" source="PlNFcmiEDoXIiMCgxHAk-14" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" target="PlNFcmiEDoXIiMCgxHAk-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="373" y="220" as="sourcePoint" />
+            <mxPoint x="423" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;PasienControler&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="358" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ login()&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ updatePasien(id)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ hapusPasien(id)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ updateStatus(id, status&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="184" x="314" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="114" width="199" x="565" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-21" edge="1" parent="1" source="PlNFcmiEDoXIiMCgxHAk-20" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" target="PlNFcmiEDoXIiMCgxHAk-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="220" as="sourcePoint" />
+            <mxPoint x="680" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;AntrianService&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="615" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ buatNoTiket(): String&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;+ hitungPosisi(): int&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px; color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ ambilStatus(): array&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="184" x="571" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="181" width="199" x="43" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-25" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="43" y="402.0000000000001" as="sourcePoint" />
+            <mxPoint x="242" y="402.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;User&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="93" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-28" edge="1" parent="1" source="PlNFcmiEDoXIiMCgxHAk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PlNFcmiEDoXIiMCgxHAk-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- id:int&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- username: String&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- password: String&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- nama_lengkap: String&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- role: String&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="184" x="49" y="417" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-29" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="43" y="525.0000000000001" as="sourcePoint" />
+            <mxPoint x="242" y="525.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ verifikasiPassword()&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="161" x="31" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="237" width="199" x="314" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-32" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="314" y="402.0000000000001" as="sourcePoint" />
+            <mxPoint x="513" y="402.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Pasien&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="364" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- id:int&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- no_tiket: String&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- nama: String&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- usia: String&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- no_hp: String&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- keluhan: String&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- status: String&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- created_at: Timestamp&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- updated_at: Timestamp&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="129" width="184" x="321.5" y="417" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-36" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="314" y="562.0000000000001" as="sourcePoint" />
+            <mxPoint x="513" y="562.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ ubahData()&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ ubahStatus(status)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="151" x="322.5" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="102" width="199" x="571" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-40" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="571" y="402.0000000000001" as="sourcePoint" />
+            <mxPoint x="770" y="402.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;LaporanController&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="621" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-42" edge="1" parent="1" source="PlNFcmiEDoXIiMCgxHAk-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PlNFcmiEDoXIiMCgxHAk-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;+ lihatDashboard()&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;+ lihatLaporan(tanggal)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="184" x="578.5" y="417" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="164" width="199" x="314" y="661" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-48" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="314" y="693.0000000000001" as="sourcePoint" />
+            <mxPoint x="513" y="693.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Database&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="364" y="667" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;- host: String&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- dbname: String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- username: String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;- password: String&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="184" x="321.5" y="697" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-52" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="314" y="785.0000000000001" as="sourcePoint" />
+            <mxPoint x="513" y="785.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ getKoneksi() : PDO&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="161" x="297.5" y="792" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-55" edge="1" parent="1" source="PlNFcmiEDoXIiMCgxHAk-7" style="endArrow=classic;html=1;rounded=0;fontColor=light-dark(#000000,#000000);entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.673;exitY=1.057;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);" target="PlNFcmiEDoXIiMCgxHAk-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="111" y="345" as="sourcePoint" />
+            <mxPoint x="161" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-56" edge="1" parent="1" source="PlNFcmiEDoXIiMCgxHAk-14" style="endArrow=classic;html=1;rounded=0;fontColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000000);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="407" y="267" as="sourcePoint" />
+            <mxPoint x="407" y="367.86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-58" edge="1" parent="1" source="PlNFcmiEDoXIiMCgxHAk-23" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#050505);dashed=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="PlNFcmiEDoXIiMCgxHAk-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="527" y="362" as="sourcePoint" />
+            <mxPoint x="577" y="312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#010101);" value="mengelola" vertex="1">
+          <mxGeometry height="30" width="60" x="152" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#010101);fontSize=9;" value="memakai" vertex="1">
+          <mxGeometry height="30" width="60" x="507" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-62" edge="1" parent="1" source="PlNFcmiEDoXIiMCgxHAk-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PlNFcmiEDoXIiMCgxHAk-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#010101);fontSize=12;" value="menghitung" vertex="1">
+          <mxGeometry height="30" width="94" x="588" y="301" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#010101);" value="mengelola" vertex="1">
+          <mxGeometry height="30" width="60" x="417" y="301" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#010101);fontSize=9;" value="membaca" vertex="1">
+          <mxGeometry height="30" width="60" x="513" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-65" edge="1" parent="1" source="PlNFcmiEDoXIiMCgxHAk-31" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#050505);dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PlNFcmiEDoXIiMCgxHAk-47" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="588" y="575" as="sourcePoint" />
+            <mxPoint x="484" y="669" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#010101);" value="disimpan di" vertex="1">
+          <mxGeometry height="30" width="86" x="417" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-67" edge="1" parent="1" source="PlNFcmiEDoXIiMCgxHAk-30" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#050505);dashed=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PlNFcmiEDoXIiMCgxHAk-47" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.3113" as="geometry">
+            <Array as="points">
+              <mxPoint x="151.75" y="743" />
+            </Array>
+            <mxPoint x="188" y="618" as="sourcePoint" />
+            <mxPoint x="147.31" y="799.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#010101);labelBackgroundColor=light-dark(#FFFFFF,#F3F3F3);" value="disimpan di" vertex="1">
+          <mxGeometry height="30" width="86" x="180" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="13" width="56.5" x="112.75" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="13" width="56.5" x="377.75" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="13" width="56.5" x="636.25" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="13" width="56.5" x="642.25" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="13" width="56.5" x="385.25" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="13" width="56.5" x="112.75" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font&gt;&amp;lt;&amp;lt;database&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="13" width="56.5" x="385.25" y="663" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-76" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#030303);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="588" y="728" as="sourcePoint" />
+            <mxPoint x="645.93" y="728" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-77" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#030303);dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="588.9" y="758" as="sourcePoint" />
+            <mxPoint x="646.8299999999999" y="758" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Asosiasi&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="625.9" y="713" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Ketergantungan&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="648.9" y="743" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=18;fontColor=light-dark(#000000,#000000);" value="Class Diagram Sistem Antrian Pasien" vertex="1">
+          <mxGeometry height="30" width="363.5" x="34.5" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="PlNFcmiEDoXIiMCgxHAk-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=10;spacing=0;spacingBottom=0;" value="&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-47&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;User adalah data admin (tabel users): id, username, password (hash), nama lengkap, dan role. Method verifikasiPassword() dipakai saat login&lt;/span&gt;&lt;span class=&quot;&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;.&lt;/span&gt;   &lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-48&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;Pasien adalah data pasien (tabel pasien): id, nomor tiket, nama, usia, no. HP, keluhan, kategori (darurat, prioritas, reguler), status (menunggu, dipanggil, selesai), serta waktu dibuat dan diubah. Method ubahData() dan ubahStatus() mengubah data dan status pasien&lt;/span&gt;&lt;span class=&quot;&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;.&lt;/span&gt;   &lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-49&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;AuthController mengelola User: login, logout, dan ganti password (login_process.php, logout.php, proses_ganti_password.php)&lt;/span&gt;&lt;span class=&quot;&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;.&lt;/span&gt;   &lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-50&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;PasienController mengelola Pasien: tambah, edit, hapus, dan ubah status (folder admin/proses)&lt;/span&gt;&lt;span class=&quot;&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;.&lt;/span&gt;   &lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-51&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;AntrianService menyediakan fungsi antrian: membuat nomor tiket, menghitung posisi, dan mengambil status pasien (includes/fungsi_antrian.php). Class ini dipakai oleh PasienController dan membaca data Pasien&lt;/span&gt;&lt;span class=&quot;&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;.&lt;/span&gt;   &lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-52&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;LaporanController menampilkan dashboard dan laporan dengan membaca data Pasien (dashboard.php, laporan.php)&lt;/span&gt;&lt;span class=&quot;&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;.&lt;/span&gt;   &lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-53&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;Database menyimpan konfigurasi dan koneksi PDO ke database (config/database.php). Data User dan Pasien disimpan di sini&lt;/span&gt;&lt;span class=&quot;&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="244" width="740" x="43" y="834" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SdUGwtu8u1YhwujoFW_0" name="Object Diagram">
+    <mxGraphModel dx="2943" dy="1811" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=18;fontColor=light-dark(#000000,#000000);" value="Object Diagram Sistem Antrian Pasien" vertex="1">
+          <mxGeometry height="30" width="363.5" x="24" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="108" width="220" x="45" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" target="8ec58M2Id0xSq9aGR8aS-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="45" y="206" as="sourcePoint" />
+            <mxPoint x="244" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;admin : user&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="109" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;id = 1&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;username = admin&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;passwordHash = admin123&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;nama_lengkap = Administrator Klinik&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;role = admin&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="71.5" width="213" x="49" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="108" width="220" x="305.25" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-7" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" target="8ec58M2Id0xSq9aGR8aS-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="305.25" y="206" as="sourcePoint" />
+            <mxPoint x="504.25" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;db : Database&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="369.25" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;host = localhost&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;dbname = db_antrian_pasien&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;username = root&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;password = (kosong)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="71.5" width="240.5" x="309.25" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFFB03);fillColor=light-dark(#FFFFFF,#D9EB3F);strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="119" width="250" x="576" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Urutan Antrian&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="651.5" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=0;spacingBottom=-13;fontSize=16;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Siti : dipanggil&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Rina : posisi 1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Andi : posisi 2&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="168.5" x="592.5" y="214.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="174" width="220" x="45.5" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-14" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1.003;entryY=0.114;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.001;exitY=0.115;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="45.27999999999997" y="451.1700000000001" as="sourcePoint" />
+            <mxPoint x="266.15999999999997" y="450.99599999999987" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;siti : pasien&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="109.5" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;id = 2&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;no_tiket = TKT-20261017-002&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;nama = Siti Aminah&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;usia = 62&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;keluhan = Nyeri dada&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;kategori = darurat&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;status = dipanggil&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;created = 08.30&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="156.5" width="213" x="48.5" y="453" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="174" width="220" x="301.22" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1.003;entryY=0.114;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.001;exitY=0.115;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="301" y="451.1700000000001" as="sourcePoint" />
+            <mxPoint x="521.88" y="450.99599999999987" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;siti : pasien&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="365.22" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;id = 2&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;no_tiket = TKT-20261017-003&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;nama = Siti Aminah&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;usia = 62&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;keluhan = Nyeri dada&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;kategori = darurat&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;status = dipanggil&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;created = 08.30&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="156.5" width="213" x="304.22" y="453" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="174" width="220" x="586.22" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-22" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=1.003;entryY=0.114;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.001;exitY=0.115;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="586" y="451.1700000000001" as="sourcePoint" />
+            <mxPoint x="806.8800000000001" y="450.99599999999987" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;andi : Pasien&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="99" x="650.22" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;id = 1&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;no_tiket = TKT-20261017-001&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;nama = Andi Pratama&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;usia = 30&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;keluhan = Sakit Kepala&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px; background-color: transparent;&quot;&gt;kategori = reguler&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;status = menunggu&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;created = 08.15&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="156.5" width="213" x="589.22" y="453" as="geometry" />
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-25" edge="1" parent="1" source="8ec58M2Id0xSq9aGR8aS-2" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8ec58M2Id0xSq9aGR8aS-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="249" y="305" as="sourcePoint" />
+            <mxPoint x="299" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="8ec58M2Id0xSq9aGR8aS-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="415.25" y="346.94000000000005" as="sourcePoint" />
+            <mxPoint x="427.5" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-27" edge="1" parent="1" source="8ec58M2Id0xSq9aGR8aS-15" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="8ec58M2Id0xSq9aGR8aS-23" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0933" as="geometry">
+            <Array as="points">
+              <mxPoint x="135.66999999999996" y="349.72" />
+              <mxPoint x="414.55999999999995" y="347.5" />
+              <mxPoint x="724.47" y="347.5" />
+            </Array>
+            <mxPoint x="396" y="410" as="sourcePoint" />
+            <mxPoint x="446" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-28" edge="1" parent="1" source="8ec58M2Id0xSq9aGR8aS-17" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000000);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="403" y="422" as="sourcePoint" />
+            <mxPoint x="356.22" y="345.8299999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ec58M2Id0xSq9aGR8aS-29" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=13;whiteSpace=wrap;" value="&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-47&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span&gt;1.admin : User adalah objek dari class User, yaitu akun admin yang mengelola sistem (username admin, nama Administrator Klinik, role admin)&lt;/span&gt;&lt;span class=&quot;&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span&gt;.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-47&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span&gt;2.siti : Pasien adalah pasien kategori darurat dengan tiket TKT-20261017-002. Statusnya “dipanggil”, artinya sedang dilayani&lt;/span&gt;&lt;span class=&quot;&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span&gt;.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-47&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span&gt;3.rina : Pasien adalah pasien kategori prioritas dengan tiket TKT-20261017-003. Statusnya “menunggu” di posisi 1&lt;/span&gt;&lt;span class=&quot;&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span&gt;.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-47&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span&gt;4.andi : Pasien adalah pasien kategori reguler dengan tiket TKT-20261017-001. Ia mendaftar paling awal (08:15), tetapi berada di posisi 2 karena kategorinya lebih rendah dari Rina&lt;/span&gt;&lt;span class=&quot;&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span&gt;.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;p id=&quot;p-rc_5061d013dfb28ba0-47&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span&gt;5.db : Database adalah koneksi ke database db_antrian_pasien (host localhost, user root). Semua objek di atas disimpan di database ini&lt;/span&gt;&lt;span class=&quot;&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="148" width="734" x="55" y="667" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
